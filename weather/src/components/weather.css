@@ -1,0 +1,177 @@
+.main {
+    display: flex;
+}
+
+.image {
+    width: 70%;
+    height: 500px;
+    position: relative;
+
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image1 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.Info-box {
+    width: 30%;
+    padding: 20px;
+}
+
+.Info-box strong {
+    color: white;
+    font-size: 30px;
+}
+
+.info {
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.over {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.over div {
+    margin: 10px;
+}
+
+.over .one {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.two span {
+    width: 100%;
+}
+
+.two .name {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.two .date {
+    font-size: 20px;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.three span {
+    font-size: 30px;
+}
+
+
+
+.form {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.form .input {
+    margin-right: 10px;
+}
+
+
+
+
+@media screen and (max-width :767px) {
+
+
+    .image1 img {
+        height: 500px;
+        object-fit: cover;
+    }
+
+
+    .main {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .over {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Info-box {
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .over div {
+        margin: 5px;
+    }
+
+    .over .one {
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    .two {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .two span {
+        width: 100%;
+    }
+
+    .two .name {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .two .date {
+        font-size: 20px;
+    }
+
+    .three {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .three span {
+        font-size: 20px;
+    }
+
+    .three img {
+        height: 100px;
+        width: 100px;
+    }
+}

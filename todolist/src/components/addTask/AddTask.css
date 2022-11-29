@@ -1,0 +1,19 @@
+.addTask{
+    width:90%;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin : 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(237, 235, 235);
+    text-align: center;
+
+}
+
+.form-control.invalid{
+    border-bottom: 3px solid red;
+}
+
+.btn {
+    width: 50%;
+}

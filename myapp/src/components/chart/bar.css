@@ -1,0 +1,24 @@
+.bar{
+    background-color: #d4d6d8;
+    margin: 10px;
+    width: 50%;
+    height: 150px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    /* background-position: bottom; */
+    /* transition: all 0.5s ease-out; */
+
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.middlebar{
+    background-color: rgb(145 204 76);
+    border-radius: 20px;
+    background-position: bottom top;
+    transition: all 0.5s ease-out;
+
+}

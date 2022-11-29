@@ -1,0 +1,29 @@
+.expense-date{
+    border-radius: 5px;
+    margin: 3px;
+    padding: 10px;
+    font-size: 12px;
+    width: 60px;
+    background-color: #99b4d1;;
+    color: white;
+}
+
+.expense-date div{
+    margin: 5px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 580px) {
+    .expense-date {
+        font-size: 20px;
+        width: 120px;
+    }
+    .expense-date div{
+        margin: 5px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+  }

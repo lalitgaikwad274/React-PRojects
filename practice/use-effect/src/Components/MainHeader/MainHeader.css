@@ -1,0 +1,30 @@
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(5, 5, 255);
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.nav-item a{
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-item a:hover{
+    color: rgb(174, 174, 174);
+}
+
+.nav-item .btn{
+    font-weight: 500;
+    background-color: white;
+
+}
+
+.nav-item .btn:hover{
+    background-color: rgb(153, 153, 153);
+}

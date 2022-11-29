@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  margin: 100px;
+}
+
+.App button{
+  margin: 10px;
+  padding: 10px 20px;
+  background: linear-gradient(to right, salmon , lightblue );
+  color: white;
+  border: none;
+  font-size: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px rgb(50, 50, 63);
+  transition: all 1s ease-out;
+  background-position: right bottom;
+}
+
+.App button:hover{
+  background-position: left bottom;
+}
+

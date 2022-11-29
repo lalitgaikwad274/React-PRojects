@@ -1,0 +1,7 @@
+.modalbox{
+    top: 50%;
+    left: 50%;
+    opacity: 0.5;
+    margin-top: 100px;
+    height: 50vh;  
+}

@@ -1,0 +1,26 @@
+.container{
+    width: 40%;
+    background-color: rgb(219, 219, 219);
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+}
+
+.formData{
+    padding: 20px;
+}
+
+.formData .Invalid .form-control{
+    background-color: rgb(210, 99, 99);
+    color: white;
+}
+
+.container:hover{
+    box-shadow: 3px 3px 5px 5px grey;
+}
+
+.form-label{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
